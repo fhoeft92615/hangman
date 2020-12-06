@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="hangman.js">
+
+    <title>Hangman</title>
+
+</head>
+<body>
+    <div id="win">You Win!</div>
+    <div id="lose">You Lose!
+        <div id="showAnswer"></div>
+    </div>
+    <div id="gameBoard" class="container w-75">
+        <div class="row">
+            <div class="col">
+                <h1>Feline Hangman</h1>
+            </div>
+        </div>
+        <div id="answer"></div>
+
+        <div class="row">
+            <div class="col">
+                <button id="a">a</button>
+                <button id="b">b</button>
+                <button id="c">c</button>
+                <button id="d">d</button>
+                <button id="e">e</button>
+                <button id="f">f</button>
+                <button id="g">g</button>
+                <button id="h">h</button>
+                <button id="i">i</button>
+                <button id="j">j</button>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col">
+                <button id="k">k</button>
+                <button id="l">l</button>
+                <button id="m">m</button>
+                <button id="n">n</button>
+                <button id="o">o</button>
+                <button id="p">p</button>
+                <button id="q">q</button>
+                <button id="r">r</button>
+                <button id="s">s</button>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col">
+                <button id="t">t</button>
+                <button id="u">u</button>
+                <button id="v">v</button>
+                <button id="w">w</button>
+                <button id="x">x</button>
+                <button id="y">y</button>
+                <button id="z">z</button>
+            </div>
+        </div>
+
+        <table class="table">
+            <tbody>
+            <tr>
+                <td id="wrongGuesses"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <script src="hangman.js"></script>
+
+</body>
+</html>
